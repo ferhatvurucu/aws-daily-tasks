@@ -5,6 +5,6 @@ There is a security requirement to rotate access keys in each 90 days. Key rotat
 
 **EC2 Start / Stop instances**
 
-This script helps creating a list of instances in your AWS infrastructure and schedule starting and closing the instances.
+Lists ec2 instances in your AWS infrastructure and helps you to start or stop them.
 
 usage: ec2_start_stop.py [-h] action

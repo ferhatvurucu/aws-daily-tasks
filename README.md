@@ -1,4 +1,4 @@
-# Daily Tasks with Python Boto3
+# AWS Daily Tasks
 **AWS Key Rotation**
 
 There is a security requirement to rotate access keys in each 90 days. Key rotation script checks and rotate the keys which are created more than 90 days ago.

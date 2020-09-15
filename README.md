@@ -1,10 +1,10 @@
 # AWS Daily Tasks
 **AWS Key Rotation**
 
-There is a security requirement to rotate access keys in each 90 days. Key rotation script checks and rotate the keys which are created more than 90 days ago.
+Lists access keys which are older than 90 days and helps you to rotate them.
 
 **EC2 Start / Stop instances**
 
-Lists ec2 instances in your AWS infrastructure and helps you to start or stop them.
+Lists ec2 instances and helps you to start or stop them.
 
 usage: ec2_start_stop.py [-h] action

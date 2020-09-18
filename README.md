@@ -1,7 +1,7 @@
 # AWS Daily Tasks
 **AWS Key Rotation**
 
-Lists access keys which are older than 90 days and helps you to rotate them.
+Lists access keys older than 90 days and helps you to rotate them.
 
 **EC2 Start / Stop instances**
 

@@ -11,4 +11,4 @@ usage: ec2_start_stop.py [-h] action
 
 **Remove Unused EBS Volumes**
 
-Lists available EBS volumes and remove them.
+Lists unused Amazon EBS volumes and helps you to control AWS costs by deleting them.

@@ -12,3 +12,7 @@ usage: ec2_start_stop.py [-h] action
 **Remove Unused EBS Volumes**
 
 Lists unused Amazon EBS volumes and helps you to control AWS costs by deleting them.
+
+**RDS Untagged Resources**
+
+Lists untagged RDS resources and helps you to identify them.

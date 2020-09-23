@@ -16,3 +16,7 @@ Lists unused Amazon EBS volumes and helps you to control AWS costs by deleting t
 **RDS Untagged Resources**
 
 Lists untagged RDS resources and helps you to identify them.
+
+**S3 Public Buckets**
+
+Lists public S3 buckets by evaluating Bucket Policy, Access Control List and Block Public Access settings.

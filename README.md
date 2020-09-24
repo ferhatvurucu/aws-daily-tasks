@@ -1,11 +1,11 @@
 # AWS Daily Tasks
-**AWS Key Rotation**
+**Access Key Rotation**
 
 Lists access keys older than 90 days and helps you to rotate them.
 
 **EC2 Start / Stop instances**
 
-Lists ec2 instances and helps you to start or stop them.
+Lists EC2 instances and helps you to start or stop them.
 
 usage: ec2_start_stop.py [-h] action
 
@@ -23,4 +23,8 @@ Lists public S3 buckets by evaluating Bucket Policy, Access Control List and Blo
 
 **Elastic IP Clean Up**
 
-Lists unused elastic IPs and helps you to stop the charges by releasing them.
+Lists unused Elastic IPs and helps you to stop the charges by releasing them.
+
+**RDS Manual Snapshots**
+
+Lists RDS instances and helps you to have manual snapshots all at once.

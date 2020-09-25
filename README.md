@@ -28,3 +28,7 @@ Lists unused Elastic IPs and helps you to stop the charges by releasing them.
 **RDS Manual Snapshots**
 
 Lists RDS instances and helps you to have manual snapshots all at once.
+
+**IAM Users Without MFA**
+
+Lists all users with no MFA enabled and helps you to terminate the user's ability to access AWS services through the AWS Management Console.

@@ -5,7 +5,7 @@ Lists access keys older than 90 days and helps you to rotate them.
 
 **EC2 Start / Stop instances**
 
-Lists EC2 instances and helps you to start or stop them.
+Lists EC2 instances and helps you to start or stop the instances all at once.
 
 usage: ec2_start_stop.py [-h] action
 
@@ -31,4 +31,4 @@ Lists RDS instances and helps you to have manual snapshots all at once.
 
 **IAM Users Without MFA**
 
-Lists all users with no MFA enabled and helps you to terminate the user's ability to access AWS services through the AWS Management Console.
+Lists all users without MFA enabled and helps you to terminate the user's ability to access AWS services.

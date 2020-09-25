@@ -5,7 +5,7 @@ Lists access keys older than 90 days and helps you to rotate them.
 
 **EC2 Start / Stop instances**
 
-Lists EC2 instances and helps you to start or stop the instances all at once.
+Lists EC2 instances and helps you to start or stop them all at once.
 
 usage: ec2_start_stop.py [-h] action
 

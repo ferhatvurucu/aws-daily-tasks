@@ -17,7 +17,7 @@ Lists unused Amazon EBS volumes and helps you to control AWS costs by deleting t
 
 Lists untagged RDS resources and helps you to identify them.
 
-**S3 Public Buckets**
+**Public S3 Buckets**
 
 Lists public S3 buckets by evaluating Bucket Policy, Access Control List and Block Public Access settings.
 
@@ -29,6 +29,6 @@ Lists unused Elastic IPs and helps you to stop the charges by releasing them.
 
 Lists RDS instances and helps you to have manual snapshots all at once.
 
-**IAM Users Without MFA**
+**Disable IAM Users Without MFA**
 
 Lists all users without MFA enabled and helps you to terminate the user's ability to access AWS services.

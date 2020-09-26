@@ -33,7 +33,7 @@ Lists RDS instances and helps you to have manual snapshots all at once.
 
 Lists all users without MFA enabled and helps you to terminate the user's ability to access AWS services.
 
-**AWS Systems Manager Parameter Store Backup / Restore**
+**AWS Parameter Store Backup / Restore**
 
 Lists all parameters and helps you to backup and restore sensitive data on AWS Parameter Store.
 

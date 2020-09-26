@@ -5,7 +5,7 @@ Lists access keys older than 90 days and helps you to rotate them.
 
 **EC2 Start / Stop instances**
 
-Lists EC2 instances and helps you to start or stop them all at once.
+Lists EC2 instances and helps you to start and stop them all at once.
 
 usage: ec2_start_stop.py [-h] action
 
@@ -32,3 +32,9 @@ Lists RDS instances and helps you to have manual snapshots all at once.
 **Disable IAM Users Without MFA**
 
 Lists all users without MFA enabled and helps you to terminate the user's ability to access AWS services.
+
+**AWS Systems Manager Parameter Store Backup / Restore**
+
+Lists all parameters and helps you to backup and restore sensitive data on AWS Parameter Store.
+
+usage: parameter_store_backup_restore.py [-h] [-b] [-r]

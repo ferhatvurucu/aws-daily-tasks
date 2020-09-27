@@ -4,9 +4,9 @@ from botocore.exceptions import ClientError
 
 # argument parser for start/stop action
 parser = ArgumentParser(description='Start or stop EC2 instances')
-parser.add_argument('action',help='start / stop',type=str)
+parser.add_argument('--start',action='store_true', help="start EC2 instances")
+parser.add_argument('--stop',action='store_true', help="stop EC2 instances")
 args = parser.parse_args()
-action=(args.action).upper()
 
 # create EC2 resource and client
 ec2_resource = boto3.resource('ec2')
@@ -34,11 +34,15 @@ def stop_instances(instances):
     except ClientError as e:
         print(e)
 
-instance_list = create_ec2_list()
+def main():
+    instance_list = create_ec2_list()
 
-if action == 'START':
-    start_instances(instance_list)
-elif action == 'STOP':
-    stop_instances(instance_list)
-else:
-    print('usage: ec2_start_stop.py [-h] action')
+    if args.start:
+        start_instances(instance_list)
+    elif args.stop:
+        stop_instances(instance_list)
+    else:
+        print('usage: ec2_start_stop.py [-h] action')
+
+if __name__ == "__main__":
+    main()

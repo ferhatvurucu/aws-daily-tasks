@@ -22,5 +22,9 @@ def disable_console_access(userlist):
             print("There is no login profile for " + user)
             continue
 
-userlist = users_without_mfa()
-disable_console_access(userlist)
+def main():
+    userlist = users_without_mfa()
+    disable_console_access(userlist)
+
+if __name__ == "__main__":
+    main()

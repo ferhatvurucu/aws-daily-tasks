@@ -9,4 +9,8 @@ def list_untagged_dbs():
         if not rds.list_tags_for_resource(ResourceName=db['DBInstanceArn'])['TagList']:
             print("DB Identifier : " + db['DBInstanceIdentifier'])
 
-list_untagged_dbs()
+def main():
+    list_untagged_dbs()
+
+if __name__ == "__main__":
+    main()

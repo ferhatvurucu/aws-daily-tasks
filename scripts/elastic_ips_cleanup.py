@@ -10,4 +10,8 @@ def elastic_ip_cleanup():
             ec2.release_address(AllocationId=eip['AllocationId'])
             print("Released " + eip['PublicIp'])
 
-elastic_ip_cleanup()
+def main():
+    elastic_ip_cleanup()
+
+if __name__ == "__main__":
+    main()

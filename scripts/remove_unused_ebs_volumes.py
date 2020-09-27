@@ -15,5 +15,9 @@ def remove_unused_volumes(volumes):
         ec2.delete_volume(VolumeId=volume_id)
         print("Successfully deleted " + volume_id)
 
-unused_volumes = create_volume_list()
-remove_unused_volumes(unused_volumes)
+def main():
+    unused_volumes = create_volume_list()
+    remove_unused_volumes(unused_volumes)
+
+if __name__ == "__main__":
+    main()

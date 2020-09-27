@@ -42,5 +42,9 @@ def rotate_keys_for_users(list_of_users):
             else:
                 print(user + ' access key is active for less then 90 days.')
 
-user_list = create_user_list()
-rotate_keys_for_users(user_list)
+def main():
+    user_list = create_user_list()
+    rotate_keys_for_users(user_list)
+
+if __name__ == "__main__":
+    main()

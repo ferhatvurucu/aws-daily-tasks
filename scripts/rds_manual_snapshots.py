@@ -15,5 +15,9 @@ def create_rds_snapshot(dbs):
         rds.create_db_snapshot(DBSnapshotIdentifier=db+'-snapshot', DBInstanceIdentifier=db)
         print("Creating snapshot for " + db)
 
-dbs = create_rds_list()
-create_rds_snapshot(dbs)
+def main():
+    dbs = create_rds_list()
+    create_rds_snapshot(dbs)
+
+if __name__ == "__main__":
+    main()

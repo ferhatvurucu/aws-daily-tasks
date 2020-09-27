@@ -37,4 +37,8 @@ def list_public_buckets():
         elif bucket_policy_status(bucket['Name']) or bucket_acl_status(bucket['Name']):
             print(bucket['Name'] + ' is public.')
 
-list_public_buckets()
+def main():
+    list_public_buckets()
+
+if __name__ == "__main__":
+    main()

@@ -41,6 +41,6 @@ usage: parameter_store_backup_restore.py [-h] [-b] [-r]
 
 **Amazon Translate Large Text Documents**
 
-Helps you to translate large text documents with Amazon Translate and The Natural Language Toolkit (NLTK) for Python.
+Helps you to translate large text documents with Amazon Translate and Natural Language Toolkit (NLTK) for Python.
 
 usage: translate_large_text_documents.py [-h] -l LANG

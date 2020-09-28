@@ -35,6 +35,6 @@ Lists all users without MFA enabled and helps you to terminate the user's abilit
 
 **AWS Parameter Store Backup / Restore**
 
-Lists all parameters and helps you to backup and restore sensitive data on AWS Parameter Store.
+Lists all parameters and helps you to backup and restore sensitive data all at once.
 
 usage: parameter_store_backup_restore.py [-h] [-b] [-r]

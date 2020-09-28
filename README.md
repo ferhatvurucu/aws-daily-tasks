@@ -7,7 +7,7 @@ Lists access keys older than 90 days and helps you to rotate them.
 
 Lists EC2 instances and helps you to start and stop them all at once.
 
-usage: ec2_start_stop.py [-h] action
+usage: ec2_start_stop.py [-h] [--start] [--stop]
 
 **Remove Unused EBS Volumes**
 

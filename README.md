@@ -38,3 +38,9 @@ Lists all users without MFA enabled and helps you to terminate the user's abilit
 Lists all parameters and helps you to backup and restore sensitive data all at once.
 
 usage: parameter_store_backup_restore.py [-h] [-b] [-r]
+
+**Amazon Translate Large Text Documents**
+
+Helps you to translate large text documents with Amazon Translate and The Natural Language Toolkit (NLTK) for Python.
+
+usage: translate_large_text_documents.py [-h] -l LANG

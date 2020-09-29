@@ -58,12 +58,9 @@ def main():
         memory_stats = []
         # cluster name
         cluster_name = cluster_arn.split("/")[-1]
-        # last 24 hours
         now = datetime.datetime.now()
         start_time = now - datetime.timedelta(hours=24)
-        # service arn
         list_of_services = list_services(cluster_name)
-        # print cluster name
         print("Cluster: " + cluster_name)
 
         for service_arn in list_of_services:

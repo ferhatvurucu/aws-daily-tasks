@@ -44,3 +44,7 @@ usage: parameter_store_backup_restore.py [-h] [-b] [-r]
 Helps you to translate large text documents with Amazon Translate and Natural Language Toolkit for Python.
 
 usage: translate_large_text_documents.py [-h] -l LANG
+
+**AWS ECS Highlight Possible Bottlenecks**
+
+Helps you to summarize CPU and memory usages across an ECS cluster over the last 24 hours.

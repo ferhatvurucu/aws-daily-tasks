@@ -48,3 +48,7 @@ usage: translate_large_text_documents.py [-h] -l LANG
 **AWS ECS Highlight Possible Bottlenecks**
 
 Helps you to summarize CPU and memory usages across an ECS cluster over the last 24 hours.
+
+**IAM Access Advisor Permissions Analysis**
+
+Helps you to audit IAM roles by listing services not accessed for the last 180 days.

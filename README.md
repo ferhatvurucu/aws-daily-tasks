@@ -1,4 +1,9 @@
 # aws-daily-tasks
+
+This project aims to automate AWS day-to-day activities with Python and Boto3.
+
+# Usage
+
 **IAM Access Key Rotation**
 
 Lists access keys older than 90 days and helps you to rotate them.

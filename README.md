@@ -1,4 +1,4 @@
-# AWS Daily Tasks
+# aws-daily-tasks
 **IAM Access Key Rotation**
 
 Lists access keys older than 90 days and helps you to rotate them.

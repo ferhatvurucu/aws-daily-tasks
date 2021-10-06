@@ -1,6 +1,6 @@
 # aws-daily-tasks
 
-A collection of scripts to automate AWS day-to-day activities with python and boto3.
+A collection of scripts to automate AWS day-to-day activities with Boto3.
 
 # Usage
 
